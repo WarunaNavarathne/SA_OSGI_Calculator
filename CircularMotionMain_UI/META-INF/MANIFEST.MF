@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: CircularMotionMain_UI
+Bundle-SymbolicName: CircularMotionMain_UI
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: circularmotionmain_ui.Activator
+Bundle-RequiredExecutionEnvironment: JavaSE-16
+Automatic-Module-Name: CircularMotionMain.UI
+Import-Package: firstcircularalgoconsumer,
+ firstcircularalgoproducer,
+ fourthcircularalgoconsumer,
+ org.osgi.framework;version="1.3.0",
+ org.osgi.util.tracker;version="1.5.3",
+ secondcircularalgoconsumer,
+ thirdcircularalgoconsumer
+Bundle-ActivationPolicy: lazy
+Export-Package: circularmotionmain_ui

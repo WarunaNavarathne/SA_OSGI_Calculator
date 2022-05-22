@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: ThermoMain_UI
+Bundle-SymbolicName: ThermoMain_UI
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: thermomain_ui.Activator
+Bundle-RequiredExecutionEnvironment: JavaSE-16
+Automatic-Module-Name: ThermoMain.UI
+Import-Package: firstthermoalogconsumer,
+ firstthermoalogproducer,
+ fourththermoalgoconsumer,
+ org.osgi.framework;version="1.3.0",
+ org.osgi.util.tracker;version="1.5.3",
+ secondthermoalgoconsumer,
+ thirdthermoalgoconsumer
+Bundle-ActivationPolicy: lazy
+Export-Package: thermomain_ui

@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: LinearMotionMain_UI
+Bundle-SymbolicName: LinearMotionMain_UI
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: linearmotionmain_ui.Activator
+Bundle-RequiredExecutionEnvironment: JavaSE-16
+Automatic-Module-Name: LinearMotionMain.UI
+Import-Package: firstlinearalgoconsumer,
+ firstlinearalgoproducer,
+ forthlinearalgoconsumer,
+ org.osgi.framework;version="1.3.0",
+ org.osgi.util.tracker;version="1.5.3",
+ secondlinearalgoconsumer,
+ thirdlinearalgoconsumer
+Bundle-ActivationPolicy: lazy
+Export-Package: linearmotionmain_ui
