@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: ForthLinearAlgoConsumer
+Bundle-SymbolicName: ForthLinearAlgoConsumer
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: forthlinearalgoconsumer.Activator
+Bundle-RequiredExecutionEnvironment: JavaSE-16
+Automatic-Module-Name: ForthLinearAlgoConsumer
+Import-Package: forthlinearalgoproducer,
+ org.osgi.framework;version="1.3.0"
+Bundle-ActivationPolicy: lazy
+Export-Package: forthlinearalgoconsumer

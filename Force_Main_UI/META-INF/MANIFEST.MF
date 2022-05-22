@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Force_Main_UI
+Bundle-SymbolicName: Force_Main_UI
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: force_main_ui.Activator
+Bundle-RequiredExecutionEnvironment: JavaSE-15
+Automatic-Module-Name: Force.Main.UI
+Import-Package: force_consumer,
+ force_producer,
+ org.osgi.framework;version="1.3.0",
+ org.osgi.util.tracker;version="1.5.2",
+ preasure_consumer,
+ preasure_producer
+Bundle-ActivationPolicy: lazy
+Export-Package: force_main_ui

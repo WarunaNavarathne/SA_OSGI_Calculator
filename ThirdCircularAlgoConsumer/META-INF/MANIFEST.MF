@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: ThirdCircularAlgoConsumer
+Bundle-SymbolicName: ThirdCircularAlgoConsumer
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: thirdcircularalgoconsumer.Activator
+Bundle-RequiredExecutionEnvironment: JavaSE-16
+Automatic-Module-Name: ThirdCircularAlgoConsumer
+Import-Package: org.osgi.framework;version="1.3.0",
+ thirdcircularalgoproducer
+Bundle-ActivationPolicy: lazy
+Export-Package: thirdcircularalgoconsumer
